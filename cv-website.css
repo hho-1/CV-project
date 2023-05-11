@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(238, 235, 235);
@@ -187,23 +188,20 @@ h4{
     background-color: rgb(5, 150, 133);
     width: 100%;
     height: 130px;
-    display: flex;
-    
+    /* display: flex; */
+    text-align: center;
+    position: absolute;
+    margin-top: 1250px;
 }
 
-.footer{
-    
-}
 #footer-note{
-    padding-top: 15px;
+    padding-top: 45px;
     color: white;
     height: 20px;
-    margin-left: 45%;
 }
 .logos-social-media{
-    margin-top: 55px;
+    margin-top: 15px;
     height: 20px;  
-    margin-left: -10%; 
     color: white;
 }
 
